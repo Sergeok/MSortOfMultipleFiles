@@ -19,14 +19,14 @@ javac -cp .\src -d .\out .\src\*java
 
 Пример запуска:
 ```
-java -cp .\out Main %* -s -a out.txt C:/Users/sergeok/Desktop/a.txt ../b c.txt d ../e.txt
+java -cp ./out Main -s -a out.txt C:/Users/sergeok/Desktop/a.txt ../b c.txt d ../e.txt
 ```
 
 ---
 Упрощенный пример аналогичной компиляции и запуска программы из командной строки для Windows посредством скриптов:
 ```
 build.bat
-run.bat -d -i out.txt C:/Users/sergeok/Desktop/a.txt ../b c.txt d.md
+run.bat -d -i result/out.txt C:/Users/sergeok/Desktop/a.txt ../b c.txt d.md
 ```
 ---
 Сортировка выполняется согласно условиям задачи.
